@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D52184421925F1C00A237BA /* ParallaxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D52184321925F1C00A237BA /* ParallaxCell.swift */; };
 		8D7F96E72192562300BAF6AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7F96E62192562300BAF6AA /* AppDelegate.swift */; };
 		8D7F96E92192562300BAF6AA /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7F96E82192562300BAF6AA /* ListTableViewController.swift */; };
 		8D7F96EC2192562300BAF6AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D7F96EA2192562300BAF6AA /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D52184321925F1C00A237BA /* ParallaxCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCell.swift; sourceTree = "<group>"; };
 		8D7F96E32192562300BAF6AA /* accelerometron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = accelerometron.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7F96E62192562300BAF6AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D7F96E82192562300BAF6AA /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D52184021925EBE00A237BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D52184121925ECC00A237BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D52184321925F1C00A237BA /* ParallaxCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D52184221925ED200A237BA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8D7F96E82192562300BAF6AA /* ListTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		8D7F96DA2192562300BAF6AA = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +79,10 @@
 		8D7F96E52192562300BAF6AA /* accelerometron */ = {
 			isa = PBXGroup;
 			children = (
+				8D52184021925EBE00A237BA /* Model */,
+				8D52184121925ECC00A237BA /* View */,
+				8D52184221925ED200A237BA /* Controller */,
 				8D7F96E62192562300BAF6AA /* AppDelegate.swift */,
-				8D7F96E82192562300BAF6AA /* ListTableViewController.swift */,
 				8D7F96EA2192562300BAF6AA /* Main.storyboard */,
 				8D7F96ED2192562400BAF6AA /* Assets.xcassets */,
 				8D7F96EF2192562400BAF6AA /* LaunchScreen.storyboard */,
@@ -135,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D52184421925F1C00A237BA /* ParallaxCell.swift in Sources */,
 				8D7F96E92192562300BAF6AA /* ListTableViewController.swift in Sources */,
 				8D7F96E72192562300BAF6AA /* AppDelegate.swift in Sources */,
 			);
