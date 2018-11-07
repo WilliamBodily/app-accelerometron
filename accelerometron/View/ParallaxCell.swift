@@ -10,8 +10,8 @@ import UIKit
 
 class ParallaxCell: UITableViewCell {
 
-    @IBOutlet weak var itemImageView: UIImageView!
-    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var cellImage: UIImageView!
+    @IBOutlet weak var label: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -19,8 +19,8 @@ class ParallaxCell: UITableViewCell {
     }
     
     func configureCell(withImage image: UIImage, andDescription desc: String) {
-        itemImageView.image = image
-        descriptionLabel.text = desc
+        cellImage.image = image
+        label.text = desc
     }
     
     func setupParallax() {

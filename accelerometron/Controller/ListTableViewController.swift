@@ -17,16 +17,18 @@ class ListTableViewController: UITableViewController {
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return
+        return 1
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // Number of cells
+        return imagesAndLabels.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        // return a configured cell with image and name
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "parallaxCell", for: indexPath) as? ParallaxCell
+            else { return UITableViewCell() }
+        cell.configureCell(withImage: imagesAndLabels[indexPath.row].image, andDescription: imagesAndLabels[indexPath.row].label)
+        return cell
     }
 
 }
-
