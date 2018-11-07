@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D0C570E2192701C00C8E2B3 /* ImagesAndLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C570D2192701C00C8E2B3 /* ImagesAndLabels.swift */; };
 		8D52184421925F1C00A237BA /* ParallaxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D52184321925F1C00A237BA /* ParallaxCell.swift */; };
 		8D7F96E72192562300BAF6AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7F96E62192562300BAF6AA /* AppDelegate.swift */; };
 		8D7F96E92192562300BAF6AA /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7F96E82192562300BAF6AA /* ListTableViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D0C570D2192701C00C8E2B3 /* ImagesAndLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesAndLabels.swift; sourceTree = "<group>"; };
 		8D52184321925F1C00A237BA /* ParallaxCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCell.swift; sourceTree = "<group>"; };
 		8D7F96E32192562300BAF6AA /* accelerometron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = accelerometron.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7F96E62192562300BAF6AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D0C570F2192703700C8E2B3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8D0C570D2192701C00C8E2B3 /* ImagesAndLabels.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		8D52184021925EBE00A237BA /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +89,7 @@
 		8D7F96E52192562300BAF6AA /* accelerometron */ = {
 			isa = PBXGroup;
 			children = (
+				8D0C570F2192703700C8E2B3 /* Data */,
 				8D52184021925EBE00A237BA /* Model */,
 				8D52184121925ECC00A237BA /* View */,
 				8D52184221925ED200A237BA /* Controller */,
@@ -164,6 +175,7 @@
 			files = (
 				8D52184421925F1C00A237BA /* ParallaxCell.swift in Sources */,
 				8D7F96E92192562300BAF6AA /* ListTableViewController.swift in Sources */,
+				8D0C570E2192701C00C8E2B3 /* ImagesAndLabels.swift in Sources */,
 				8D7F96E72192562300BAF6AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
